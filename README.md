@@ -1,4 +1,4 @@
-# QuantLightning
+# Quant Lightning
 ## Financial Time Series Mining Library  <img src="https://github.com/jirotubuyaki/QuantJet/blob/master/images/lightning.png" align="right" width="230px">
 
 ## Vision  
