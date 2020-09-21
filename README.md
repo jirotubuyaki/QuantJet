@@ -76,8 +76,8 @@ We plan to implements books and academic papers below.
 * Müller, P. (2015). Bayesian nonparametric data analysis. Cham: Springer.  
 
 ## Contribution  
-The QuantJet project welcome developers. Please see my Github pages.
+The QuantLightning project welcome developers. Please see my Github pages.
 
 
 ## License  
- The QuantJet license is a MIT License suitable for use in both free software and proprietary applications, imposing no constraints at all on the use of the library. We use C++ and Boost C++ libraries.
+ The QuantLightning license is a MIT License suitable for use in both free software and proprietary applications, imposing no constraints at all on the use of the library. We use C++ and Boost C++ libraries.
