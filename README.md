@@ -2,7 +2,7 @@
 ## Financial Time Series Mining Library  <img src="https://github.com/jirotubuyaki/QuantJet/blob/master/images/lightning.png" align="right" width="230px">
 
 ## Vision  
-QuantJet is an open source library for monitoring and analysis financial time series in the stock market. we plan to develop functions like an advanced data manipulation and advanced statistical methods. We use C++ ad Boost C++ Library. License is MIT Licence.
+QuantLightning is an open source library for monitoring and analysis financial time series in the stock market. we plan to develop functions like an advanced data manipulation and advanced statistical methods. We use C++ ad Boost C++ Library. License is MIT Licence.
 
 
 ## Data Object  
