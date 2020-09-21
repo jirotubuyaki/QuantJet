@@ -1,5 +1,7 @@
-# Quant Lightning
-## Financial Time Series Mining Library  <img src="https://github.com/jirotubuyaki/QuantJet/blob/master/images/lightning.png" align="right" width="230px">
+<img src="https://github.com/jirotubuyaki/QuantJet/blob/master/images/lightning.png" align="right" width="257px">  
+
+# Quant Lightning  
+## Financial Time Series Mining Library
 
 ## Vision  
 QuantLightning is an open source library for monitoring and analysis financial time series in the stock market. we plan to develop functions like an advanced data manipulation and advanced statistical methods. We use C++ ad Boost C++ Library. License is MIT Licence.
