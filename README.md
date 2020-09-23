@@ -1,4 +1,4 @@
-<img src="https://github.com/jirotubuyaki/QuantJet/blob/master/images/lightning_only.png" align="right" width="18%">  
+<img src="https://github.com/jirotubuyaki/QuantJet/blob/master/images/lightning_only_2.png" align="right" width="18%">  
 
 # Quant Lightning  
 ## Financial Time Series Mining Library
