@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>QuantLightning - Intelligence Algorithm Trade Engine</title>
+	<meta name="description" content="Financial Intelligence Algorithm Trade Engine Library for Quant">
+	<meta name="viewport" content="maximum-scale=2.0,width=device-width,initial-scale=1.0,user-scalable=yes" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="robots" content="all">
+	<meta name="author" content="Masashi OKADA">
+	<meta name="keywords" content="Quant,Quantitative Finance,Derivatives, Time Series,Financial Engineering,Bayes,">
+	<link rel=StyleSheet href="./css/reset.css">
+	<link rel=StyleSheet href="./css/style.css">
+	<link href="./css/lightbox.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.ico">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3866453-12"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-3866453-12');
+	</script>
+	 <script src="./js/lightbox-plus-jquery.min.js"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-3866453-10');
+	</script>
+	<script>
+	    lightbox.option({
+	      'resizeDuration': 200,
+	      'wrapAround': true
+	    })
+	</script>
+</head>
+<body> 
+	<a id="top"></a>
+	<header>
+		<a href="./index.html"><img id="name" src="./images/lightning_2.png" alt="Quant Lightning"></a>
+		<h1> Intelligence Algorithm Trade Engine</h1>
+		<br>
+		<img class="r_line" src="./images/line2.png" alt="line">
+		<br>
+		<br>
+		<a href="./index.html" ><img class="icons" src="./images/home.png" alt="home icon"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<!--<a href="" ><img class="icons" src="./images/facebook.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+		<a href="https://github.com/jirotubuyaki" ><img class="icons" src="./images/github.png" alt="github icon"></a>
+		<!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+		<!--<a href="" ><img class="icons" src="./images/R.png"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+		<!--<a href="" ><img class="icons" src="./images/python.png"></a>-->
+	</header>
+	<div id="contents">
+		<div id="left">
+			<ul class="nav">
+				<li><a href="./index.html#data_object">&#9656;&nbsp;Documentation</a>
+					<ul>
+						<li><a href="./index.html#data_engine">&#9656;&nbsp;Architecture</a>
+						</li>
+						<!--<li><a href="./index.html#data_engine">&#9656;&nbsp;Data Engine</a>
+						</li>
+						<li><a href="./index.html#alpha_engine">&#9656;&nbsp;Alpha Engine</a>
+						</li>						<li><a href="./index.html#data_engine">&#9656;&nbsp;Signal Engine</a>
+						</li>
+						<li><a href="./index.html#alpha_engine">&#9656;&nbsp;Strategies</a>
+						</li>
+						-->		
+					</ul>
+				</li>
+				<li><a href="./index.html#contribution">&#9656;&nbsp;Contribution</a>
+				</li>
+				<li><a href="./index.html#license">&#9656;&nbsp;License</a>
+
+				</li>
+			</ul>
+		</div>
+		<div class="contents_topic">
+			<div class='wave -one'></div>
+			<div class='wave -two'></div>
+			<div class='wave -three'></div>
+			<h2>News</h2>
+			<hr class="line">
+			<div class="contents_in">
+				<p>2021-06-29</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;Now under Development.</p>
+				<br>
+			</div>
+			<h2>Vision</h2>
+			<hr class="line">
+			<div class="contents_in">
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;QuantLightning is an open source library for algorithm trade system in the stock market. we plan to develop the infrastructure of intelligence trade engine and several artificial intelligence trade strategies. We use C++ ad Boost C++ Library. License is MIT Licence.</p>
+				<br>
+			</div>
+			<a id="data_object"></a>
+			<h2>Architecture</h2>
+			<hr class="line">
+			<div class="contents_in">
+				<img id="Architecture" src="./images/strategy.png" alt="Architecture">
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;Alpha is investment strategy's ability to gain profit in the stock martket. It is built by lots of data and Machine Learning Technologies.We conduct signals that are timing to sell or buy aseet from alphas and prepare sell and buy algorithms. The many  scientific strategies of imvestments are proposed. We plan to implement the several strategies.</p>
+				<br>
+				<br>
+				<a class="top_navi" href="#top">▲ TOP</a>
+			</div>
+			<!--<a id="data_manipulation"></a>
+			<h2>Data Engine</h2>
+			<hr class="line">
+			<div class="contents_in">
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+				example</p>
+				<pre>
+					<code class="source">
+  Data_1 = Data.select(2020-01-01, 2020-04-30);
+
+					</code>
+				</pre>
+				<p>Several other methods are planned. </p>
+				<br>
+				<a class="top_navi" href="#top">▲ TOP</a>
+			</div>
+			<br>
+			-->
+			<a id="contribution"></a>
+			<h2>Contribution</h2>
+			<hr class="line">
+			<div class="contents_in">
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;The QuantLightning project welcome developers. Please see my Github pages.</p>
+				<br>
+				<a class="top_navi" href="#top">▲ TOP</a>
+
+			</div>
+			<a id="license"></a>
+			<h2>License</h2>
+			<hr class="line">
+			<div class="contents_in">
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;The QuantLightning license is a MIT License suitable for use in both free software and proprietary applications, imposing no constraints at all on the use of the library. We use C++ and Boost C++ libraries.
+				</p>
+				<br>
+				<a class="top_navi" href="#top">▲ TOP</a>
+			</div>
+		</div>
+		<br>
+	</div>
+	<footer>
+	<img class="r_line" src="./images/line2.png" alt="line">
+	<br>
+	<br>
+	Copyright &copy; Masashi OKADA All Rights Reserved.
+	</footer>
+</body>
+</html>
